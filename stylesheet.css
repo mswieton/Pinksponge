@@ -6,64 +6,140 @@
 
 .inside {
 	display: block;
-	width: 1000px;	
+	width: 80%;	
 	margin: 0 auto; 
 	text-align: center;
+	font-family: "Roboto Condensed";
+ 
 }
 
-h1{
-	font-size: 15px;
-}
 
 header {	
-	background-image: url("images/header.jpg") no-repeat center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background-image: url("images/header.jpg");
+	background-repeat: no-repeat;
 	background-size: cover;
-	
 }
 
 nav {
-	font-weight: bold;
+	font-family: "Roboto Condensed";
+    font-weight: 700;
 	border-bottom: 2px solid #ff3399;
 	padding: 15px 15px;
 	display: block;
-	width: 1000px;	
+	width: 80%;	
 	margin: 0 auto;
 }
-
+#home: {
+	color: #bbbaba;
+}
  li.line {
 	border-right: 2px solid #bbbaba;
 	padding-right: 15px;
 	}
+#logo {
 	
+}	
 nav>ul>li {
 	padding-left: 15px;
 }
 	
-
 li {
 	display: inline-block;
 }
+
+.text_1 {
+	background-image: url("images/header3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text_1 p {
+	font-size: 52px;
+	color: #787878;
+	font-family: "Roboto Condensed";
+    font-weight: 700;
+	padding-top: 1em;
+}
+.text_1 button {
+	font-family: "Roboto Condensed";
+    font-weight: 700;
+	font-size: 14px;
+	margin-bottom: 3em;
+	margin-top: 1em;
+	padding: 10px 25px;
+}
+
+.kwadrat {
+	width: 20%;
+	border: 1px solid black;
+	margin-bottom: 3em;
+	padding: 5px;
+}
+
+#wystajacy_kwadrat {
+	padding-top: 3em;
+;
+}
+h1{
+	font-size: 14px;
+	color: #666666;
+	padding: 15px 7px;
+}
+
+
+li p {
+	font-size: 12px;
+	color: #8b8b8b;
+	font-family: Roboto;
+}
 button {
-	padding: 10px 20px;
+	
 	color: white;
 	background-color: #ff3399;
 	border: none;
+	font-family: "Roboto Condensed";
+    font-weight: 700;
+	
 }
 
 .profile {
 	
 	background-color: #e8f1f6;
 }
-.text_1 p {
-	font-size: 53px;
+
+.text_2 p {
+	font-size: 30px;
+	color: #8b8b8b;
+	font-family: "Roboto Condensed";
+    font-weight: 400;
 }
+#housewife {
+	color: #666666;
+	font-weight: 700;
+}
+
 .text_3 {
 	background-image: url("images/sponge.png");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
+.text_3 p {
+	font-size: 54px;
+	color: #666666;
+	padding-top: 2em;
+	font-family: "Roboto Condensed";
+    font-weight: 700;
+}
+
+.text_3 button{
+	padding: 10px 50px;
+	margin: 30px 0;
+	font-size: 28px;
+	font-family: "Roboto Condensed";
+    font-weight: 700;
+	
+}
+
+/** _____________FOOTER______________**/
 
 
 footer{
@@ -85,6 +161,7 @@ footer{
 footer>div {
 	clear:both;
 	display: block;
+	background-color: #e7e7e7;
 }
 
 
