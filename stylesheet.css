@@ -13,7 +13,6 @@
  
 }
 
-
 header {	
 	background-image: url("images/header.jpg");
 	background-repeat: no-repeat;
@@ -29,16 +28,20 @@ nav {
 	width: 80%;	
 	margin: 0 auto;
 }
-#home: {
-	color: #bbbaba;
+#home {
+	color: #ff3399;
 }
+
  li.line {
 	border-right: 2px solid #bbbaba;
 	padding-right: 15px;
 	}
-#logo {
-	
+#logo { 
+	text-align: left;
+	padding: 25px;
 }	
+
+
 nav>ul>li {
 	padding-left: 15px;
 }
@@ -70,7 +73,7 @@ li {
 
 .kwadrat {
 	width: 20%;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin-bottom: 3em;
 	padding: 5px;
 }
@@ -105,7 +108,9 @@ button {
 	
 	background-color: #e8f1f6;
 }
-
+.text_2 {
+	padding: 3em 0;
+}
 .text_2 p {
 	font-size: 30px;
 	color: #8b8b8b;
@@ -115,6 +120,7 @@ button {
 #housewife {
 	color: #666666;
 	font-weight: 700;
+	padding-top: 1em;
 }
 
 .text_3 {
@@ -148,7 +154,7 @@ footer{
 
 .footer_box {
 	display: block;
-	width:1000px;
+	width:80%;
 	margin: 0px auto;
 }
 
