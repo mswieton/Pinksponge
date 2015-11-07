@@ -128,6 +128,18 @@ li p {
 	padding-top: 1em;
 }
 
+.dot {
+	height: 15px;
+	width: 15px;
+	background-color: #e7e7e7;
+	border-radius: 100%;
+	margin-top: 15px;
+	margin-right: 5px;	
+}
+#pink_dot{
+	background-color: #ff3399;
+}
+
 /*__________________SPONG_EBACKGROUND_______________*/
 .text_3 {
 	background-image: url("images/sponge.png");
